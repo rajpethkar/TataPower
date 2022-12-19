@@ -1,0 +1,17 @@
+﻿@model Login.Models.Login
+@using (Html.BeginForm("Auth", "Login", FormMethod.Post))
+{
+    
+    <table>
+        <tr>
+            <td>@Html.TextBoxFor(m => m.uid)</td>
+        </tr>
+        <tr>
+            <td>@Html.PasswordFor(m => m.pwd)</td>
+        </tr>
+        <tr>
+            <td><button type="submit">Login</button></td>            
+        </tr>
+    </table>
+    
+}

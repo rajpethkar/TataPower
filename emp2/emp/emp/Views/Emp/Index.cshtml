@@ -1,0 +1,9 @@
+﻿@model emp.Models.emp
+<h2>Add Emp</h2>
+@using (Html.BeginForm("AddEmplyoee", "Emp", FormMethod.Post))
+{
+    @Html.HiddenFor(x => x.id)
+    @Html.TextBoxFor(x => x.name)
+    <button type="submit">Save</button>
+    @Html.ActionLink("Emp List", "EmpList", "Emp");
+}

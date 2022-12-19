@@ -1,0 +1,7 @@
+Install-Package Microsoft.Owin.Host.SystemWeb
+Install-Package Microsoft.Owin.Security.OpenIdConnect
+Install-Package Microsoft.Owin.Security.OpenIdConnect
+Install-Package Microsoft.Owin.Security.Cookies
+Install-Package Microsoft.Identity.Client
+Install-Package Microsoft.Graph
+Install-Package Microsoft.Owin.Security.Google
