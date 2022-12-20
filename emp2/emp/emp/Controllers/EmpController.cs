@@ -36,8 +36,8 @@ namespace emp.Controllers
                 ModelState.Clear();
             }
 
-            return View("EmpList");
-           // return RedirectToAction("EmpList");
+            //return View("EmpList");
+           return RedirectToAction("EmpList");
         }
         
 
