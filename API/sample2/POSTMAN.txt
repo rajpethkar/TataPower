@@ -1,0 +1,15 @@
+PUT
+
+curl --location --request PUT 'https://localhost:44304/api/Home' \
+--header 'Content-Type: application/json' \
+--data-raw '{"id":"1","name":"rajesh"}'
+
+POST
+curl --location --request POST 'https://localhost:44304/api/Home' \
+--header 'Content-Type: application/json' \
+--data-raw '{"id":"1","name":"rajesh"}'
+
+DELETE
+curl --location --request DELETE 'https://localhost:44304/api/Home/1' \
+--header 'Content-Type: application/json' \
+--data-raw '1'
